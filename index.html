@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("li").click(function(){
+        $(this).addClass("selected-item");
+        $("*").not(this).removeClass("selected-item");
+    });
+
+});
+</script>
+<title>YouRead</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--
+agile, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
+
+Download: http://zypopwebtemplates.com/
+
+License: Creative Commons Attribution
+//-->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+
+<body>
+
+		<section id="body" class="width">
+			<aside id="sidebar" class="column-left">
+                    
+			<header>
+			<h1><a href="#"></a>YouRead</h1>
+
+				<h2>Reading is life</h2>	
+				
+			</header>
+
+			<nav id="mainnav">
+  				<ul>
+                            		<li class="selected-item"><a href="index.html">Home</a></li>
+                           		 <li ><a href="trending.html">Trending</a></li>
+                           		 <li><a href="subscriptions.html">Subscriptions</a></li>
+                            		
+                        	</ul>
+<br>
+<hr>
+
+<i class="glyphicon glyphicon-book"></i>
+<small id="library"><b>Library</b></small>
+                                <ul>
+                            		<li><a href="history.html">History</a></li>
+                           		 <li ><a href="watchlater.html">Watch Later</a></li>
+                           		  <li ><a href="linkedarticles.html">Liked articles</a></li>
+                            		
+                        	</ul>
+<p><center><small> AboutPressCopyrightCreatorsAdvertiseDevelopers<wbr>+YouRead
+TermsPrivacyPolicy & SafetyTest new features<small></center>
+</p>
+<p><center><strong>&copy 2017 YouRead, LLC</strong></center></p>
+			</nav>
+
+			
+			
+			</aside>
+	
+		
+</body>
+</html>
